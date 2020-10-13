@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header img {
+	margin-top: 1em;
+	transition: transform;
+	transition-duration: 1s;
+}
+header img:hover {
+	transform: scale(1.5);
+}
+a {
+  color: green;
+  text-decoration: none;
+}
+
+.nav {
+  background-color: black;
+  width: 100vw;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav h1 {
+  box-sizing: border-box;
+  width: auto;
+  margin: auto;
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+.nav-menu {
+  margin: auto 0 auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#mobile-menu {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  margin-right: 0;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.nav-ul {
+  box-sizing: border-box;
+  display: none;
+}
+
+.nav-ul li {
+  list-style-type: none;
+  padding: 20px;
+  text-align: right;
+}
+
+/* Handles how link anchors will transition */
+.nav-ul a {
+  transition: all .5s;
+}
+.nav-ul a:hover {
+  color: b;
+}
+
+/* Media query for desktop */
+@media only screen and (min-width: 900px) {
+  #mobile-menu {
+    display: none;
+  }
+  .nav-ul {
+    display: flex;
+    flex-direction: row;
+  }
+}
+

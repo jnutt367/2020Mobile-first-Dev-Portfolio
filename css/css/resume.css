@@ -1,0 +1,11 @@
+.main {
+	background-color: silver;
+	text-align: center;
+	margin: 0 2em;
+	padding: 2em;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	align-items: center;
+}
+
