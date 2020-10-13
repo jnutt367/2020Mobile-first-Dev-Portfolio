@@ -1,0 +1,33 @@
+.statement {
+	text-align: center;
+}
+ 
+
+.circle {
+		margin: 0 auto;
+		margin-top: 2em;
+		margin-bottom: 2em;
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		background-image: url('../images/jason6-sm.jpg');
+		height: 200px;
+		width: 200px;
+		border-radius: 15px;
+		color: white;
+/*------ figure out how to change this image on hover and on scroll --------------*/
+
+		border: 2px solid green;
+		background: ;
+		transition: transform;
+		transition-duration: 2s;
+		margin-bottom: 2em;
+}
+.circle:hover {
+	transform: rotate(15);
+	border: 2px solid sienna;
+	border-radius: 50%;
+	background-image: url('../images/jason1-sm.jpg');
+	transform: scale(1.1);
+	cursor: pointer;
+}

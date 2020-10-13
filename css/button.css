@@ -1,0 +1,19 @@
+button {
+	text-align: center;
+	margin-top: 1.5em;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 5px 3px 2px green;
+	border: 2px solid green;
+	margin-bottom: 200px;
+	transition-property: color;
+	transition-duration: 2s;
+}
+button:hover {
+	cursor: pointer;
+	color: sienna;
+	font-weight: 700;
+	border-radius: 10px;
+	border: 3px solid sienna;
+	box-shadow: 5px 3px 2px sienna;
+}

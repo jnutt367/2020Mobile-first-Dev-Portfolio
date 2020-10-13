@@ -1,0 +1,168 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	
+	background-color: black;
+	color: white;
+}
+
+
+
+
+/*--------------------Shimmer Effect on Jason Nutt Forntend Dev. Styles---------------------------*/
+.shimmer {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 3em;
+  text-align: center;
+  padding: 0 140px 0 0;
+  display: block;
+  margin-bottom: 0;
+}
+.shimmer {
+  text-align: center;
+  margin-left: 3.5em;
+  color: rgba(255,255,255,0.1);
+  background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+}
+#p-shimmer  {
+	margin-bottom: 1.5em;
+	
+} 
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-o-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+
+/*---------------------------End Jason Nutt Frontend Dev.  shimmer styles ------------*/
+
+
+main {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.statement{
+	background-color: black;
+	padding: 3em;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	grid-gap: 40px;
+	margin-bottom: 200px;
+}
+h2 {
+	padding-bottom: 1em;
+}
+
+button {
+	
+	margin-top: 1.5em;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 5px 3px 2px pink;
+	border: 2px solid pink;
+	margin-bottom: 200px;
+	transition-property: color;
+	transition-duration: 2s;
+}
+button:hover {
+	cursor: pointer;
+	color: red;
+	font-weight: 700;
+	border-radius: 10px;
+	border: 3px solid red;
+	box-shadow: 5px 3px 2px red;
+}
+/*------------------end of personal statement ------*/
+/*-----------Main Image styles --------------*/	
+	.circle {
+		
+		background-image: url('../images/jason6-sm.jpg');
+		height: 200px;
+		width: 200px;
+		border-radius: 50%;
+		color: white;
+/*------ figure out how to change this image on hover and on scroll --------------*/
+/*------This is a good idea do not give up on it ---------*/
+		border: 2px solid aqua;
+		background: ;
+		transition: transform;
+		transition-duration: .5s;
+		margin-bottom: 2em;
+}
+ 
+
+.circle:hover {
+	transform: rotate(15);
+	border: 2px solid pink;
+	border-radius: 50%;
+	background-image: url('../images/jason1-sm.jpg');
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+	margin-left: 25px;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
