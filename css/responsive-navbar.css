@@ -2,6 +2,14 @@
   margin: 0;
   padding: 0;
 }
+header img {
+	margin-top: 1em;
+	transition: transform;
+	transition-duration: 1s;
+}
+header img:hover {
+	transform: scale(1.5);
+}
 a {
   color: green;
   text-decoration: none;
