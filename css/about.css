@@ -12,6 +12,8 @@
 }
 #about p {
 	text-align: center;
+	margin-left: 1em;
+	margin-right: 1em;
 	margin-bottom: 2em;
 	padding-left: 2em;
 }
@@ -25,4 +27,8 @@ figure {
 	display: grid;
 	justify-content: center;
 	align-items: center;
+}
+.project-headline {
+	margin-right: 1em;
+	margin-left: 1em;
 }
