@@ -2,6 +2,12 @@ footer {
 	height: 300px;
 	background-color: black;
 }
+footer ul {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	padding: 1em;
+}
 footer ul li img {
 	display: flex;
 	flex-direction: row;
@@ -22,20 +28,8 @@ footer ul li img:hover {
 hr {
 	margin-bottom: 3em;
 }
-
-@media screen and (min-device-width: 600px) {
-	/*-------icons flex out to row from column ----------*/
-footer ul {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-around;
-	padding: 1em;
-}
-footer ul li img {
-	display: flex;
-}
 footer p {
 	text-align: center;
 	color: green;
 }
-}
+
