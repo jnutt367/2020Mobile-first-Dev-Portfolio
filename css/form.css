@@ -1,24 +1,15 @@
- form {
+form {
 	display: grid;
-	margin: 0 20px;
-	padding: 10px;
-	background: ;
-	border-radius: 2%;
- }
- input {
-	background: white;
-	height: 25px;
-	padding: 15px;
-	
-	border-radius: 2%;
- }
- #form {
-	 margin: 0 7em 0 6.5em;
- }
- #form label {
-	color: white;
- }
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
 label {
-	color: black;
-	padding: 1em;
+	padding: 20px;
+}
+@media (min-width: 600px) {
+	input, label {
+		
+		width: 700px;
+	}
 }
