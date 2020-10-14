@@ -1,0 +1,24 @@
+ form {
+	display: grid;
+	margin: 0 20px;
+	padding: 10px;
+	background: ;
+	border-radius: 2%;
+ }
+ input {
+	background: white;
+	height: 25px;
+	padding: 15px;
+	
+	border-radius: 2%;
+ }
+ #form {
+	 margin: 0 7em 0 6.5em;
+ }
+ #form label {
+	color: white;
+ }
+label {
+	color: black;
+	padding: 1em;
+}

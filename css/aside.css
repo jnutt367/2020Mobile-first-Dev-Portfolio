@@ -1,4 +1,27 @@
+* {
+
+}
 aside {
-	height: 500px;
+	display: grid; 
+	grid-template-columns: 1fr;
+	margin-top: 25px;
+	height: 1900px;
 	background-color: black;
+}
+figure {
+	margin-top: 25px;
+	color: white;
+}
+
+
+
+
+@media (min-width: 600px) {
+	aside {
+	display: grid; 
+	grid-template-columns: 1fr 1fr;
+	margin-top: 25px;
+	height: 1500px;
+	background-color: black;
+	
 }
