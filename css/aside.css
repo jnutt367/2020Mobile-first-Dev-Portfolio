@@ -8,7 +8,7 @@ aside {
 	margin-top: 25px;
 	height: 1900px;
 	background-color: black;
-	padding-bottom: 2em;
+	padding-bottom: 5em;
 }
 figure {
 	margin-top: 25px;
@@ -26,6 +26,8 @@ figure img {
 	transition: transform translate3d(x,y,z);
 	transition-duration: 1s;
 }
+/*-------------Trying to get theses projects to transform on their Z axis translate3d is the answer 
+				will have to further investigate --------------------------------------------*/
 figure img:hover {
 	transform: skewY(4deg);
 	transform: skewX(20deg);
