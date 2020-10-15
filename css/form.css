@@ -7,9 +7,15 @@ form {
 label {
 	padding: 20px;
 }
-@media (min-width: 600px) {
-	input, label {
-		
+@media (min-width: 769px) {
+	input, 
+	label, 
+	button {
+		margin-left: 6em;
+		margin-right: 1em;
 		width: 700px;
+	}
+	h1 {
+		margin-left: 4em;
 	}
 }
