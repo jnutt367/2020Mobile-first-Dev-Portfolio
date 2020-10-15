@@ -23,11 +23,13 @@ figure {
 figure img {
 	border-radius: 10px;
 	border: 5px inset sienna;
-	transition: transform;
-	transition-delay: 1s;
+	transition: transform translate3d(x,y,z);
+	transition-duration: 1s;
 }
 figure img:hover {
-	transform: skewY(4deg); ; 
+	transform: skewY(4deg);
+	transform: skewX(20deg);
+	transform: translateZ(15deg);
 }
 
 
