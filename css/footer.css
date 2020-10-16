@@ -8,6 +8,9 @@ footer ul {
 	justify-content: space-around;
 	padding: 1em;
 }
+li {
+	list-style: none;
+}
 footer ul li img {
 	display: flex;
 	flex-direction: row;
@@ -31,4 +34,5 @@ footer p {
 	text-align: center;
 	color: green;
 }
+
 

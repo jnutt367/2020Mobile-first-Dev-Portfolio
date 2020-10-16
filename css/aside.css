@@ -26,6 +26,9 @@ figure img {
 	transition: transform translate3d(x,y,z);
 	transition-duration: 1s;
 }
+.illustration {
+	transform: none;
+}
 /*-------------Trying to get theses projects to transform on their Z axis translate3d is the answer 
 				will have to further investigate --------------------------------------------*/
 figure img:hover {
