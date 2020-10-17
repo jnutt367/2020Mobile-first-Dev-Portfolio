@@ -11,7 +11,7 @@
 .shimmer {
   text-align: center;
   margin-left: 2em;
-  color: rgba(255,255,255,0.1);
+  color: rgba(0,230,64,0.1);
   background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
   background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
   background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
